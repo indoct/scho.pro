@@ -51,7 +51,7 @@ body {
   color: var(--scholime);
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
+.navbar-nav .nav-link {
   padding: 0;
   padding-right: 10px;
   text-align: right;
