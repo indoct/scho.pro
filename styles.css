@@ -22,6 +22,11 @@ body {
   font-size: 1.2rem;
 }
 
+a {
+  color: var(--scholime);
+  text-decoration: underline;
+}
+
 .nav-link {
   background-color: var(--schodark);
   color: var(--scholight);
@@ -100,7 +105,7 @@ p {
 h1,
 h2,
 h3 {
-  font-family: "Dystopian", sans-serif;
+  font-family: dystopian, sans-serif;
   font-weight: 800;
 }
 
@@ -114,6 +119,10 @@ h2 {
 
 h3 {
   font-size: 2rem;
+}
+
+h6 {
+  font-weight: 600;
 }
 
 .smallerh1 {
@@ -158,8 +167,8 @@ h3 {
 
 #btn-back-to-top {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 65px;
+  right: 10px;
   display: none;
 }
 
@@ -205,8 +214,16 @@ article.row.project:hover {
 
 /* ABOUT ME */
 
+.bio {
+  border-right: 2px solid #32353a;
+}
+
+.about .row {
+  justify-content: flex-start;
+}
+
 .about .intro {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 500;
 }
 
@@ -214,17 +231,20 @@ article.row.project:hover {
   font-size: 3.5rem;
 }
 
-.profile {
-  padding-top: 7rem;
-}
+/* .profile {
+  padding-top: 4rem;
+} */
 
+.profile p,
+.profile {
+  font-size: 0.9rem;
+}
 .item {
   padding: 0.5rem 0.8rem;
   background: var(--schogrey);
   margin-right: 0.8rem;
   line-height: 2.5;
   white-space: nowrap;
-  font-size: 1.1rem;
 }
 
 .faux-btn {
@@ -352,5 +372,8 @@ footer {
   }
   .contact footer.mt-5 {
     margin-top: 0 !important;
+  }
+  .about-img {
+    display: none;
   }
 }
