@@ -344,6 +344,11 @@ a.email-big:hover {
   border: 2px solid var(--scholight);
 }
 
+/* PROJECT PAGE */
+.project-page h1 {
+  font-size: 3rem;
+}
+
 /* FOOTER */
 
 footer {
