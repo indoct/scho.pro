@@ -22,6 +22,10 @@ body {
   font-size: 1.2rem;
 }
 
+#menu {
+  position: absolute;
+}
+
 .nav-link {
   background-color: var(--schodark);
   color: var(--scholight);
@@ -196,6 +200,17 @@ article.row.project:hover {
 .p-desc {
   font-size: 1rem;
   color: #b8bdbf;
+}
+
+/* ABOUT ME */
+
+.about .intro {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.about h1 {
+  font-size: 3.5rem;
 }
 
 /* CONTACT FORM PAGE */

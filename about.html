@@ -31,7 +31,7 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="justify-content-end" id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav flex-column">
                         <li class="nav-item">
                             <a class="nav-link active g1" aria-current="page" href="#">Home</a>
@@ -53,69 +53,29 @@
                 </div>
             </nav>
         </div>
-        <section class="container header">
-            <div class="row mt-5 pt-5 pattern">
-                <div class="col">
-                    <h1 class="aos-init aos-animate" data-aos="zoom-in"><span class="underline gradient">scho.</span></h1>
-                    <p class="intro aos-init aos-animate" data-scroll="" data-aos="fade-up" data-aos-duration="1000">
-                        This is the design portfolio of London based designer SC Houlihan.
-                        <br />I like to craft attractive and useful things & experiences.
+        <section class="container about">
+            <div class="row mt-5 pt-5">
+                <div class="col pe-5">
+                    <h1 class="mb-4"><span class="gradient">About Me</span></h1>
+                    <p class="intro">
+                        Conrad, you have no idea what it takes to get the job done. This is how a gun in your face feels! It happens to me every day.
+                        You can't handle this. Kolyat, I've taken many bad things out of the world. You're the only good thing I ever added to it.
+                        Primary defense systems are offline. We can save the Normandy, Mr. Moreau, but you must help me. Give me the ship. Is
+                        submission not preferable to extinction? Careful. There goes the next Shadow Broker.
+                    </p>
+                    <p class="intro">
+                        That's what separates us, Shepard. Where you see a means to destroy, I see a way to control - to dominate and harness the
+                        Reapers' power. I'm not afraid to die. I guess I just want to be remembered by more than a few trinkets in a ruin somewhere.
+                        Well, you look good. Ah, the benefits of a redundant nervous system! You don't take much shore leave, do you, LT? The pattern
+                        has repeated itself more times than you can fathom. Organic civilizations rise, evolve, advance. And at the apex of their
+                        glory, they are extinguished. The Protheans were not the first. They did not create the citadel. They did not forge the mass
+                        relays. They merely found them. The legacy of my kind.
                     </p>
                 </div>
-                <div class="col"></div>
-            </div>
-        </section>
-        <section id="case-studies">
-            <div class="container">
-                <article class="row project" data-aos="fade-up" data-aos-duration="1000">
-                    <a href="beyond-bitesize">
-                        <div class="col-12 text-center">
-                            <img
-                                src="images/project/bb-screen.png"
-                                alt="Beyond Bitesize Screen 1"
-                                class="img-fluid bb"
-                                />
-                        </div>
-
-                        <div class="col-12">
-                            <h2 class="p-title">Beyond Bitesize</h2>
-                            <p class="p-desc">An engaging and inclusive learning platform</p>
-                        </div></a>
-                </article>
-            </div>
-            <div class="container">
-                <article class="row project" data-aos="fade-up" data-aos-duration="1000">
-                    <a href="beyond-bitesize">
-                        <div class="col-12 text-center">
-                            <img
-                                src="images/project/scho-pb.png"
-                                alt="scho. business card"
-                                class="img-fluid bb"
-                                />
-                        </div>
-
-                        <div class="col-12">
-                            <h2 class="p-title">Personal Branding (scho.)</h2>
-                            <p class="p-desc">Rebranding and collateral of my design identity</p>
-                        </div></a>
-                </article>
-            </div>
-            <div class="container">
-                <article class="row project" data-aos="fade-up" data-aos-duration="1000">
-                    <a href="beyond-bitesize">
-                        <div class="col-12 text-center">
-                            <img
-                                src="images/project/juno-bag.png"
-                                alt="Juno packaging with stamp logo"
-                                class="img-fluid bb"
-                                />
-                        </div>
-
-                        <div class="col-12">
-                            <h2 class="p-title">Juno Bakeshop</h2>
-                            <p class="p-desc">Identity design for a small home bakery business</p>
-                        </div></a>
-                </article>
+                <div class="col ps-5"><h2>Skill</h2><p>I'm Commander Shepard and this is my favorite store on the Citadel. It'd be an awfully empty
+                        galaxy
+                        without you. Fine. Deny me the answer I've been seeking for years. With this war on, we could die at any second, you know.
+                        We're a team, Garrus. There is no Shepard without Vakarian. Shepard, I have a question about human behavior.</p></div>
             </div>
         </section>
         <footer class="container-fluid mt-5">
@@ -139,10 +99,6 @@
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
             crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script src="scho.js" defer></script>
-        <script>
-            AOS.init({ once: true, anchorPlacement: 'top-center', disable: 'phone' });
-          </script>
     </body>
 </html>
