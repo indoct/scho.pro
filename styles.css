@@ -346,7 +346,12 @@ a.email-big:hover {
 
 /* PROJECT PAGE */
 .project-page h1 {
-  font-size: 3rem;
+  font-size: 2.6rem;
+}
+
+.project-page intro {
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
 /* FOOTER */
@@ -380,5 +385,8 @@ footer {
   }
   .about-img {
     display: none;
+  }
+  .project-page h1 {
+    font-size: 2.34rem;
   }
 }
