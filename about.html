@@ -17,7 +17,7 @@
     </head>
     <body>
         <div class="container">
-            <nav class="navbar navbar-expand-lg pt-4">
+            <nav class="navbar navbar-expand-lg pt-4 navbar-dark" id="menu">
                 <a class="navbar-brand align-self-start" href="#">
                     <img src="images/schogo.png" alt="scho.work" width="60" height="60" />
                 </a>
@@ -31,16 +31,18 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div
+                    class="collapse navbar-collapse justify-content-end"
+                    id="navbarNav">
                     <ul class="navbar-nav flex-column">
                         <li class="nav-item">
-                            <a class="nav-link active g1" aria-current="page" href="#">Home</a>
+                            <a class="nav-link g1" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link g2" href="#case-studies">Projects</a>
+                            <a class="nav-link g2" href="index.html#case-studies">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link g3" href="about.html">About</a>
+                            <a class="nav-link g3 active" href="#">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link g4" href="contact.html">Contact</a>
@@ -54,9 +56,11 @@
             </nav>
         </div>
         <section class="container about">
-            <div class="row mt-5 pt-5">
-                <div class="col"><img src="https://via.placeholder.com/600" class="img-fluid"></div>
-                <div class="col ps-5">
+            <div class="row pt-4 pt-lg-5 mt-lg-5">
+                <div class="col-12 col-sm-6 pb-5 text-center">
+                    <img src="https://via.placeholder.com/600" class="img-fluid" />
+                </div>
+                <div class="col-12 col-lg-6 pe-lg-5">
                     <h1 class="mb-4"><span class="gradient">About Me</span></h1>
                     <p class="intro">
                         Conrad, you have no idea what it takes to get the job done. This is how a gun in your
@@ -77,15 +81,40 @@
                         did not forge the mass relays. They merely found them. The legacy of my kind.
                     </p>
                 </div>
-                <!-- <div class="col ps-5">
-          <h2>Skill</h2>
-          <p>
-            I'm Commander Shepard and this is my favorite store on the Citadel. It'd be an awfully
-            empty galaxy without you. Fine. Deny me the answer I've been seeking for years. With
-            this war on, we could die at any second, you know. We're a team, Garrus. There is no
-            Shepard without Vakarian. Shepard, I have a question about human behavior.
-          </p>
-        </div> -->
+                <section class="container profile">
+                    <article class="row">
+                        <div class="col-12 col-lg-7">
+                            <h2 class="mb-4"><span class="gradient">Quick Profile</span></h2>
+                            <h4>Skills:</h4>
+                            <p class="mb-4">
+                                <span class="item">User Experience (UX)</span>
+                                <span class="item">User Interface (UI)</span> <span class="item">Branding</span>,
+                                <span class="item">Web & App Design</span>
+                                <span class="item">Print Marketing</span> <span class="item">Collateral</span>
+                            </p>
+                            <h4>Education:</h4>
+                            <div class="item mb-4">
+                                <p>
+                                    BA(Hons) Graphic Design<br /><span class="p-desc">University of Hertfordshire [2018-2022]</span>
+                                </p>
+                                <p class="mb-0">
+                                    Certificate in UX/UI Design<br /><span class="p-desc">General Assembly [2017]</span>
+                                </p></div>
+                            <h4>Software:</h4>
+                            <p class="mb-4">
+                                <span class="item">Adobe Illustrator</span> <span class="item">Adobe Photoshop</span>
+                                <span class="item">Adobe XD</span> <span class="item">Figma</span> <span class="item">Adobe InDesign</span> <span
+                                    class="item">Adobe Premiere Pro</span>
+                            </p>
+                            <p class="mb-4">
+                                <h4>Stack:</h4>
+                                <span class="item">HTML</span> <span class="item">CSS</span>
+                                <span class="item">Vanilla JS</span> <span class="item">React</span>
+                            </p>
+                            <a href="schoulihan.pdf" class="faux-btn d-block mt-4">Download Full CV</a>
+                        </div>
+                    </article>
+                </section>
             </div>
         </section>
         <footer class="container-fluid mt-5">

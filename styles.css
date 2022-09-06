@@ -22,10 +22,6 @@ body {
   font-size: 1.2rem;
 }
 
-#menu {
-  position: absolute;
-}
-
 .nav-link {
   background-color: var(--schodark);
   color: var(--scholight);
@@ -51,7 +47,7 @@ body {
   color: var(--scholime);
 }
 
-.navbar-nav .nav-link {
+#menu .navbar-nav .nav-link {
   padding: 0;
   padding-right: 10px;
   text-align: right;
@@ -98,6 +94,7 @@ body {
 
 p {
   line-height: 1.6;
+  font-size: 1.1rem;
 }
 
 h1,
@@ -119,7 +116,7 @@ h3 {
   font-size: 2rem;
 }
 
-.contact {
+.smallerh1 {
   font-size: 3rem;
 }
 
@@ -151,8 +148,12 @@ h3 {
 
 /* HOME & FRONT PAGE */
 
+.home .intro {
+  font-size: 1.3rem;
+}
+
 .header {
-  padding: 5rem 0 9rem;
+  padding: 5rem 0 10rem;
 }
 
 #btn-back-to-top {
@@ -211,6 +212,37 @@ article.row.project:hover {
 
 .about h1 {
   font-size: 3.5rem;
+}
+
+.profile {
+  padding-top: 7rem;
+}
+
+.item {
+  padding: 0.5rem 0.8rem;
+  background: var(--schogrey);
+  margin-right: 0.8rem;
+  line-height: 2.5;
+  white-space: nowrap;
+  font-size: 1.1rem;
+}
+
+.faux-btn {
+  background: #93f0a3;
+  color: var(--schodark);
+  font-weight: 600;
+  text-decoration: none;
+  max-width: 250px;
+  padding: 0.6rem;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: all 0.6s;
+}
+
+.faux-btn:hover {
+  border: 2px solid var(--schogreen);
+  color: var(--schogreen);
+  background: transparent;
 }
 
 /* CONTACT FORM PAGE */
@@ -304,4 +336,21 @@ footer {
 
 .footer-soc {
   text-align: right;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) {
+  .header {
+    padding: 2rem 0.75rem;
+  }
+  .profile {
+    padding-top: 3rem;
+  }
+  .profile h2 {
+    font-size: 2.8rem;
+  }
+  .contact footer.mt-5 {
+    margin-top: 0 !important;
+  }
 }
