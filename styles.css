@@ -301,15 +301,15 @@ textarea#cog-2 {
   color: var(--schopurp) !important;
 }
 
-html .cog-abuse ul,
+/* html .cog-abuse ul,
 :root:root:root:root:root .cog-abuse ul {
   display: none !important;
-}
+} */
 
-html .cog-form--dark-background .cog-branding--minimal .cog-branding__powered,
+/* html .cog-form--dark-background .cog-branding--minimal .cog-branding__powered,
 :root:root:root:root:root .cog-form--dark-background .cog-branding--minimal .cog-branding__powered {
   opacity: 0.4 !important;
-}
+} */
 
 .cog-branding.cog-branding--minimal {
   display: flex;
