@@ -270,7 +270,6 @@ article.row.project:hover {
 .contact-block {
   padding: 6rem 0;
   border: 2px solid var(--schogrey);
-  color: var(--scholight);
 }
 
 input.form-control,
@@ -278,6 +277,7 @@ textarea.form-control {
   border-radius: 0;
   background: var(--schogrey);
   border: 0;
+  color: var(--scholight);
 }
 
 .asterisk {
