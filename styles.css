@@ -354,6 +354,13 @@ a.email-big:hover {
   line-height: 1.4;
 }
 
+.proj-img {
+  transition: all 0.6s;
+}
+.proj-img:hover {
+  transform: scale(1.02);
+}
+
 /* FOOTER */
 
 footer {
