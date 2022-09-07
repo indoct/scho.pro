@@ -355,6 +355,7 @@ a.email-big:hover {
 }
 
 .proj-img {
+  background: var(--schogrey);
   transition: all 0.6s;
 }
 .proj-img:hover {
