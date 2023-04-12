@@ -168,7 +168,8 @@ h6 {
 }
 
 .header {
-  padding: 5rem 0 10rem;
+  padding-top: 5rem;
+  padding-bottom: 9rem;
 }
 
 #btn-back-to-top {
