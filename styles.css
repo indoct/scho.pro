@@ -10,6 +10,7 @@
   --schopurp: #c582ff;
   --schocyan: #62e8e8;
   --schogreen: #93f0a3;
+  --schoaccent: #878d92;
 }
 
 html,
@@ -323,25 +324,36 @@ a.email-big:hover {
 
 /* PROJECT PAGE */
 
-.proj-link {
-  padding-right: 16px;
+.back-link {
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.back-link i {
+  padding-right: 15px;
+  color: var(--scholight);
 }
 
 .proj-desc {
   font-size: 16px;
 }
 .link-icon {
-  width: 24px;
-  margin-right: 15px;
+  margin-right: 10px;
+  font-size: 0.92rem;
 }
 
 .project-page h1 {
   font-size: 2.6rem;
 }
 
-.project-page intro {
-  font-size: 1rem;
-  line-height: 1.4;
+.project-page .intro {
+  font-size: 1.06rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
 }
 
 .proj-img {
@@ -350,6 +362,22 @@ a.email-big:hover {
 }
 .proj-img:hover {
   transform: scale(1.02);
+}
+
+.categories {
+  color: var(--scholight);
+  font-size: 0.82rem;
+  letter-spacing: 0.0325rem;
+}
+
+.p-cat {
+  color: var(--schoaccent);
+}
+
+.plink-cont {
+  display: inline-block;
+  padding: 12px 18px;
+  border: 1.5px solid var(--schogrey);
 }
 
 /* FOOTER */
