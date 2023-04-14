@@ -324,6 +324,12 @@ a.email-big:hover {
 
 /* PROJECT PAGE */
 
+.next-proj {
+  font-size: 0.72rem;
+  color: var(--schoaccent);
+  margin-right: 34px;
+}
+
 .back-link {
   text-decoration: none;
   font-size: 1rem;
@@ -331,6 +337,12 @@ a.email-big:hover {
 
 .back-link:hover {
   text-decoration: underline;
+}
+
+.next-link i {
+  padding-left: 15px;
+  color: var(--scholight);
+  padding-right: 0 !important;
 }
 
 .back-link i {
