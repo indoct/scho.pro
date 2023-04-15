@@ -5,6 +5,7 @@
 :root {
   --schodark: #212326;
   --scholight: #f5fcff;
+  --schopale: #c1c5c7;
   --schogrey: #33363a;
   --scholime: #dbf093;
   --schopurp: #c582ff;
@@ -33,6 +34,8 @@ a:hover {
   text-decoration: none;
 }
 
+/* MAIN NAVIGATION */
+
 .nav-link {
   background-color: var(--schodark);
   color: var(--scholight);
@@ -44,6 +47,8 @@ a:hover {
 }
 
 .nav-link.g2:hover,
+button.g2:hover,
+.accordion-button:hover,
 .nav-link.active.g2:hover {
   color: var(--schocyan);
 }
@@ -91,6 +96,76 @@ a:hover {
 
 .nav-link:hover {
   color: var(--schopurp);
+}
+
+/* .project-nav {
+  padding: 10px 0;
+} */
+
+.proj-nav-body {
+  font-size: 0.9rem;
+  padding: 10px 0;
+}
+
+.sub-link {
+  padding: 2px 0;
+}
+
+.proj-nav-body ul {
+  list-style-type: none;
+}
+
+.accordion {
+  border-width: 0;
+  border-color: transparent;
+}
+
+.accordion-item,
+.accordion-button,
+.accordion-button:not(.collapsed) {
+  border: 0;
+  background-color: transparent;
+  color: var(--scholight);
+  box-shadow: none;
+  font-size: 1.2rem;
+}
+
+.accordion-button {
+  align-items: flex-end;
+  width: auto;
+  margin-left: auto;
+  padding: 0;
+  transition: all 0.8s;
+}
+
+.accordion-button::before {
+  flex-shrink: 0;
+  width: var(--bs-accordion-btn-icon-width);
+  height: var(--bs-accordion-btn-icon-width);
+  margin-left: auto;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 0.85rem;
+  content: "\f054";
+  margin-right: 3px;
+  margin-bottom: 7px;
+  text-align: Center;
+  background-image: none;
+  color: var(--schocyan);
+}
+
+.accordion-button:not(.collapsed)::before {
+  background-image: none;
+  font-family: "Font Awesome 5 Free";
+  content: "\f078";
+}
+
+.sub-link a {
+  color: var(--schopale);
+}
+
+.accordion-button::after {
+  display: none;
 }
 
 /* TYPOGRAPHY */

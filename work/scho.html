@@ -42,8 +42,34 @@
             <li class="nav-item">
               <a class="nav-link g1" href="../">Home</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link g2" href="../#case-studies">Projects</a>
+            <li class="nav-item project-nav">
+              <div class="accordion">
+                <div class="accordion-item">
+                  <p class="accordion-header align-items-end nav-link">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Projects
+                    </button>
+                  </p>
+                  <div id="collapseTwo" class="proj-nav-collapse collapse" data-bs-parent="#proj-navExample">
+                    <div class="proj-nav-body">
+                      <ul>
+                        <li class="sub-link"><a href="../work/beyondbitesize.html" class="nav-link g1">Beyond Bitesize</a></li>
+                        <li class="sub-link"><a href="../work/scho.html" class="nav-link g2 active" aria-current="page">Personal Identity (scho.)</a></li>
+                        <li class="sub-link"><a href="../work/grow-buddy.html" class="nav-link g3">Grow Buddy</a></li>
+                        <li class="sub-link"><a href="../work/theodddystrict.html" class="nav-link g4">The Odd Dystrict</a></li>
+                        <li class="sub-link"><a href="../work/juno.html" class="nav-link g1">Juno Bakeshop</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link g3" href="../about.html">About</a>
