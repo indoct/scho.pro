@@ -17,13 +17,3 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
-// const navbar = document.getElementById("menu");
-
-// window.addEventListener("resize", function () {
-//   if (window.matchMedia("(min-width: 992px)").matches) {
-//     navbar.classList.remove("fixed-top");
-//   } else {
-//     navbar.classList.add("fixed-top");
-//   }
-// });
